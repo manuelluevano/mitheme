@@ -1,0 +1,115 @@
+.main,
+.sidebar
+    .titulo-section
+        h3
+            font-family: $font-family2
+            font-size: 1.5em
+            line-height: 1.5em
+            line-weight: normal
+            color: $gris-oscuro
+            padding-bottom: 0.62em
+            border-bottom: 4px solid green
+            margin-bottom: 1.25em
+
+.main 
+    .titulo-section
+        > div
+            padding: 0
+    .posts
+        .post
+            margin-bottom: 1.875em // 30px
+            .contenedor
+                background: #fff
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3)
+                img
+                    max-width: 100%
+                    vertical-align: top
+                .thumb
+                    img
+                        width: 100%
+                        vertical-align:top
+                        height: auto
+                .info
+                    padding: 1.25em
+                    .titulo
+                        line-height: 1.125em
+                        margin-bottom: 1.25em
+                        font-size: 1.25em
+                        a
+                            color: $gris-oscuro
+                            font-weight: bold
+                    .fecha
+                        color: rgba(30,30,30,1)
+                        font-size: 0.875em
+                        margin-bottom: 1.25em 
+                    .extracto
+                        color: rgb(0,0,0)
+                        font-size: 1em
+                        height: 8.125em
+                        max-height: 8.125em
+                        line-height: 1.75em
+                        margin-bottom: 1.25em
+                        overflow: hidden
+                        &:hover
+                            overflow: auto
+                    .categorias
+                        ul
+                            list-style: none
+                            li
+                                display: inline-block
+                        a
+                            color: $gris-oscuro
+                            font-size: 1em
+                            font-weight: bold
+                            margin-right: 1.25em
+                            &:hover
+                                color: red
+                                text-decoration: none
+    .paginacion
+        > div
+            // padding: 0
+        ul
+            list-style: none
+            overflow: hidden
+            margin-bottom: 1.25em
+            font-size: 1em
+            li
+                float: left
+                background: $gris-oscuro
+                color: #fff
+                margin-right: 0.62em
+                font-size: 1.125em
+                line-height: 1.125em
+                border-radius: 3px
+                &.disabled
+                    padding: .2em .6em 
+                a
+                    background: $azul-primario
+                    color: #fff
+                    line-height: 1.125em
+                    display: inline-block
+                    text-decoration: none
+                    padding: .2em .5em
+                    &:hover
+                        background: #1d7e7e
+        .wp-pagenavi
+            margin-bottom: 1.25em
+            .pages,
+            span
+                background: $gris-oscuro
+                color: #fff
+                font-size: 1.125em 
+                margin-right: 0.62em
+                line-height: 1.125em
+                padding: 0.62em 0.937em
+            a
+                    background: $azul-primario
+                    color: #fff
+                    font-size: 1.125em
+                    display: inline-block
+                    text-decoration: none
+                    padding: .2em .5em
+                    margin-right: 0.62em
+                    &:hover
+                        background: #1d7e7e
+                
